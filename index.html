@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="heading">
+        <p class="angkor-regular">Hit PLAY to roll the dice</p>
+        <button onclick="generateRandomNos()" class="btn">PLAY</button>
+        <div class="middleSection">
+            <img id="flag_image" src="./flag-fill.svg" alt="flag" style="height: 2rem;"></img>
+            <h2 id="winner" class="angkor-regular">Player 1 wins</h2>
+        </div>
+    </section>
+
+    <section id="diceRolls">
+        <div class="middle angkor-regular">
+            <div id = "middlePlayer1">Player 1</div>
+            <div id = "middlePlayer2">Player 2</div>
+            <div id="dice1" class="dice"><img src="./dice6.png" alt="dice"></div>
+            <div id="dice2" class="dice"><img src="./dice6.png" alt="dice"></div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div>
+            <h2>Made By: Lakshay Gupta</h2>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./index.js" rel="text/javascript"></script>
+</body>
+
+</html>
